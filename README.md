@@ -2,7 +2,7 @@
 
 A workflow builder. Draw a few steps on a canvas, point a webhook or a schedule at them, and Relay runs them on its own and keeps a record of what every step did.
 
-**Live:** add the link here after deploying (the free server sleeps when idle, so the first load can take a minute)
+**Live:** https://relay-ufbk.onrender.com (the free server sleeps when idle, so the first load can take a minute)
 
 A workflow starts with a webhook or a cron schedule and can use these steps: HTTP request, filter, transform (JSONata) and delay. Steps can branch and merge. Every run keeps the request each step sent and what came back, and the run page updates while it is running.
 
